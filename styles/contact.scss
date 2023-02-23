@@ -81,12 +81,16 @@ section {
   }
 
   main{
-    margin-top:9rem;
+    margin-top:10rem;
     text-align:center;
+    width:80vw;
+    margin:9rem auto 1rem;
   }
 
   div.channels{
     margin-top:2rem;
+    margin:2rem auto 1rem;
     display:flex;
     justify-content:space-around;
+    width:50vw;
   }
