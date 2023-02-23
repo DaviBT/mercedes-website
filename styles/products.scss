@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap"); /* 200 and 400 */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen+Mono&family=PT+Mono&family=Poppins:wght@500&family=Ubuntu:wght@700&display=swap");
+
+$black: #111;
+$lightColor: #aaa;
+/*background-colors*/
+$bgcolor1: #222;
+$bgcolor2: #16213e;
+$bgcolor3: #0f3460;
+$bgcolor4: rgba(17, 17, 17, 0.7);
+/*details colors*/
+$detailColor1: #e94560;
+$detailcolor2: #eb455f;
+$detailColor3: #533483;
+$detailColor4: #29d9d5;
+/*text colors*/
+$txtColor1: white;
+/*font-family*/
+$title1: "Poppins", sans-serif;
+$title2: "Ubuntu", sans-serif;
+$title3: "Oswald", sans-serif;
+$txt1: "Montserrat", sans-serif;
+$specialText1: "PT Mono", monospace;
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.5 linear;
+}
+
+body {
+  background: #acaaaa;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100%;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+/*header section*/
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: $bgcolor1;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 9%;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  h1 {
+    text-align: center;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 0.5rem;
+    color: white;
+
+    a {
+      color: grey;
+      animation: ease-in-out;
+      transition-duration: 0.2s;
+      font-family:$title3;
+      font-weight:300;
+
+      &:hover {
+        color: $detailColor4;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 7rem 2rem 0.5rem 2rem;
+  justify-content: space-around;
+
+  a {
+    color: rgb(80, 78, 78);
+  }
+
+  .content {
+    background-color: #aaa;
+    border-radius: 2%;
+    animation: ease-in-out;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    padding: 0.4rem;
+
+    &:hover {
+      background-color: #9a9898;
+    }
+
+    .txt {
+      h3 {
+        text-indent: 5px;
+      }
+    }
+  }
+}
+
+.carImage img {
+  width: 18rem;
+}
