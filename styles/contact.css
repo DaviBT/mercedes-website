@@ -14,6 +14,7 @@
   text-decoration: none;
   text-transform: capitalize;
   transition: all 0.5 linear;
+  overflow-x: hidden;
 }
 
 body {
@@ -59,8 +60,9 @@ header .navbar a:hover {
 
 .banner {
   margin-top: 7rem;
+  margin-bottom: 0;
   background: url("../assets/banner.jpeg");
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -69,13 +71,16 @@ header .navbar a:hover {
   text-align: center;
   display: flex;
   place-items: center;
+  background-position: top center;
+  overflow-x: hidden;
 }
 
 main {
   display: block;
+  word-wrap: wrap;
   text-align: center;
   width: 100vw;
-  padding-top: 8rem;
+  padding-top: 50rem;
   margin: 3rem auto 0rem auto;
   z-index: 3;
   position: absolute;
@@ -84,6 +89,7 @@ main {
   right: 0;
   color: white;
   background-image: linear-gradient(rgba(34, 34, 34, 0.6509803922), #222);
+  overflow-x: hidden;
 }
 main .questions h2 {
   font-size: 2rem;
@@ -99,12 +105,13 @@ div.channels {
   justify-content: space-around;
   flex-wrap: wrap;
   font-size: 1.6rem;
+  padding: auto 0.1rem;
 }
 div.channels i {
   padding-bottom: 1rem;
 }
 div.channels .call {
-  padding-bottom: 1rem;
+  padding-bottom: auto 0.1rem;
 }
 div.channels .call p {
   font-size: 0.8rem;

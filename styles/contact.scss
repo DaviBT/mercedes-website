@@ -34,6 +34,7 @@ $specialText1: "PT Mono", monospace;
   text-decoration: none;
   text-transform: capitalize;
   transition: all 0.5 linear;
+  overflow-x: hidden;
 }
 
 body {
@@ -82,8 +83,9 @@ section {
 
   .banner{
     margin-top:7rem;
+    margin-bottom:0;
     background:url("../assets/banner.jpeg");
-    height:80vh;
+    height:100vh;
     background-size:cover;
     position: relative;
     z-index:1;
@@ -92,13 +94,16 @@ section {
     text-align:center;
     display:flex;
     place-items: center;
+    background-position: top center;
+    overflow-x: hidden;
   }
 
   main{
     display:block;
+    word-wrap: wrap;
     text-align:center;
     width:100vw;
-    padding-top:8rem;
+    padding-top:50rem;
     margin:3rem auto 0rem auto;
     z-index:3;
     position:absolute;
@@ -107,6 +112,7 @@ section {
     right:0;
     color:white;
     background-image:linear-gradient(#222222a6, $bgcolor1);
+    overflow-x: hidden;
 
     .questions{
 
@@ -127,13 +133,14 @@ section {
     justify-content:space-around;
     flex-wrap: wrap;
     font-size:1.6rem;
+    padding:auto .1rem;
 
     i{
       padding-bottom:1rem;
     }
 
     .call{
-      padding-bottom:1rem;
+      padding-bottom:auto .1rem;
       
       p{
         font-size:.8rem;
