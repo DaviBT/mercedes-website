@@ -70,10 +70,15 @@ section {
       display: flex;
       gap: 0.5rem;
       color: white;
+      font-family: "Oswald", sans-serif;
+      font-weight: 200;
   
       a {
         color: grey;
+        cursor:pointer;
         transition: all 0.5 linear;
+        transition-duration: 0.3s;
+        animation: ease-in-out;
   
         &:hover {
           color: $detailColor4;

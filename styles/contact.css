@@ -50,10 +50,15 @@ header .navbar {
   display: flex;
   gap: 0.5rem;
   color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
 }
 header .navbar a {
   color: grey;
+  cursor: pointer;
   transition: all 0.5 linear;
+  transition-duration: 0.3s;
+  animation: ease-in-out;
 }
 header .navbar a:hover {
   color: #29d9d5;
