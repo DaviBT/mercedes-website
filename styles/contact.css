@@ -74,13 +74,16 @@ header .navbar a:hover {
 main {
   display: block;
   text-align: center;
-  width: 80vw;
-  margin: 3rem auto 1rem auto;
+  width: 100vw;
+  padding-top: 8rem;
+  margin: 3rem auto 0rem auto;
   z-index: 3;
   position: absolute;
   bottom: 0px;
   left: 0;
   right: 0;
+  color: white;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.6509803922), #222);
 }
 main .questions h2 {
   font-size: 2rem;
