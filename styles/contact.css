@@ -53,6 +53,7 @@ header .navbar {
 }
 header .navbar a {
   color: grey;
+  transition: all 0.5 linear;
 }
 header .navbar a:hover {
   color: #29d9d5;
