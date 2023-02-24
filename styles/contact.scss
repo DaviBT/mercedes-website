@@ -85,6 +85,17 @@ section {
     text-align:center;
     width:80vw;
     margin:9rem auto 1rem;
+
+    .questions{
+
+      h2{
+      font-size:2rem;
+    }
+    
+      p{
+        font-size:1.1rem;
+      }
+    } 
   }
 
   div.channels{
@@ -92,5 +103,28 @@ section {
     margin:2rem auto 1rem;
     display:flex;
     justify-content:space-around;
-    width:50vw;
+    flex-wrap: wrap;
+    font-size:1.6rem;
+
+    i{
+      padding-bottom:1rem;
+    }
+
+    .call{
+      padding-bottom:1rem;
+      
+      p{
+        font-size:.8rem;
+        padding-top:.2rem;
+      }
+    }
+
+    .email{
+      padding-bottom:1rem;
+
+      p{
+      font-size:.8rem;
+      padding-top:.2rem;
+    }
+    }
   }
