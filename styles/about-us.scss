@@ -94,6 +94,7 @@ section.aboutImage {
   margin-top: 7rem;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position:bottom right;
 }
 
 section.text {
@@ -154,5 +155,6 @@ div.firstAutomobile {
 
   div.firstAutomobileText {
     width: 30rem;
+    padding-top:.5rem;
   }
 }
