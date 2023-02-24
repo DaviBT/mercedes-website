@@ -57,8 +57,14 @@ header .navbar a:hover {
   color: #29d9d5;
 }
 
+.banner {
+  margin-top: 7rem;
+  background: url("../assets/banner.jpeg");
+  height: 80vh;
+  background-size: cover;
+}
+
 main {
-  margin-top: 10rem;
   text-align: center;
   width: 80vw;
   margin: 9rem auto 1rem;
