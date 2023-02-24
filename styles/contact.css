@@ -50,8 +50,6 @@ header .navbar {
   display: flex;
   gap: 0.5rem;
   color: white;
-  font-family: "Oswald", sans-serif;
-  font-weight: 200;
 }
 header .navbar a {
   color: grey;
