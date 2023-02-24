@@ -70,6 +70,7 @@ section.aboutImage {
   margin-top: 7rem;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 section.text {
@@ -125,4 +126,5 @@ div.firstAutomobile div.age {
 }
 div.firstAutomobile div.firstAutomobileText {
   width: 30rem;
+  padding-top: 0.5rem;
 }/*# sourceMappingURL=about-us.css.map */
