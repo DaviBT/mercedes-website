@@ -108,6 +108,10 @@ header {
       background-color: #9a9898;
     }
 
+    .content:hover img{
+      transform:scale(1.1);
+    }
+
     .txt {
       h3 {
         text-indent: 5px;
