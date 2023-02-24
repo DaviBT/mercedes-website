@@ -62,12 +62,20 @@ header .navbar a:hover {
   background: url("../assets/banner.jpeg");
   height: 80vh;
   background-size: cover;
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  padding: 1rem 0.5rem;
+  text-align: center;
 }
 
 main {
   text-align: center;
   width: 80vw;
-  margin: 9rem auto 1rem;
+  margin: 3rem auto 1rem auto;
+  z-index: 3;
+  position: absolute;
+  bottom: 0px;
 }
 main .questions h2 {
   font-size: 2rem;
