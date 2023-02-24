@@ -64,18 +64,23 @@ header .navbar a:hover {
   background-size: cover;
   position: relative;
   z-index: 1;
-  width: 100vw;
+  width: 100%;
   padding: 1rem 0.5rem;
   text-align: center;
+  display: flex;
+  place-items: center;
 }
 
 main {
+  display: block;
   text-align: center;
   width: 80vw;
   margin: 3rem auto 1rem auto;
   z-index: 3;
   position: absolute;
   bottom: 0px;
+  left: 0;
+  right: 0;
 }
 main .questions h2 {
   font-size: 2rem;
